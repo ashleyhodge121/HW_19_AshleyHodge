@@ -8,12 +8,12 @@
     </head>
     <body>
         <section id="header">
-            <img id="logo" src="images/Logo03.png">
+            <img id="logo" src="images/logo04.png">
             <div class="navigation">
-                <a href="Home">Home</a>
-                <a href="Work">Work</a>
-                <a href="About">About</a>
-                <a href="Resume">Resume</a>
+                <a class="navText1" href="Home">Home</a>
+                <a class="navText2" href="Work">Work</a>
+                <a class="navText3" href="About">About</a>
+                <a class="navText4" href="Resume">Resume</a>
             </div>
         </section>
         <section id="hero">
@@ -21,36 +21,37 @@
                 <h1>Hi, I'm Ashley Ross.</h1>
                 <h2>A passionate UX Designer.</h2>
             </div>
-            <div id="about">Fueled by caffeine and the need to create, she designs digital products that solve problems and bring meaningful user experiences.
-                          She has a strong collaboration background and approaches design related problems with the user in mind to deliver delightful experiences.
+            <div id="about1">Fueled by caffeine and the need to create, I design digital products that solve problems and bring meaningful user experiences.
+            </div>
+            <div id="about2">I have a strong collaboration background and approach design related problems with the user in mind to deliver delightful experiences.
             </div>
             <div id="selfiecontainer">  
               <img id="selfie" src="images/Selfie.png">
             </div>
+            <button id="animateView">Check Out My Work</div>
         </section>
         <section class="parentContainerSkills">
             <h3>UX Skills</h3>
             <div class="flexContainer">
                 <div class="flexChild">
                     <h4>Empathy</h4>
-                    <img class="skill" class="containerImages" src="images/Empathy Image.png">
+                    <img class="skill 01" class="containerImages 01" src="images/Empathy Image.png">
                     <p class="skillsText">My approach to user empathy is to focus on what the user is telling me and leave my assumptions aside. 
                         I then reflect and analyze my findings with an empathy map and/or persona to better understand the user’s goals and needs. </p>   
                     </div>
                 <div class="flexChild">
                     <h4>Prototyping</h4>
-                    <img class="skill" class="containerImages" src="images/Prototyping Image.png">
+                    <img class="skill 02" class="containerImages 02" src="images/Prototyping Image.png">
                     <p class="skillsText">Prototyping is such an essential part to UX design, and it also happens to be my favorite part. I enjoy creating mockups of what the final product(s) is going to look like and receiving testing feedback from users. After all, it’s about seeing how effective a product is for the user. 
                     </p>
                 </div>
                 <div class="flexChild">
                     <h4>Information Architecture</h4>
-                    <img class="skill" class="containerImages" src="images/Info Architecture.png">
-                    <p class="skillsText">The ability to organize information in an understandable manner is critical. Information architecture quickly became my second favorite part of the design process because creating a product that is effective and user friendly is what I always strive for. It’s where design and technology merge to make lives easier. 
-                    </p>
+                    <img class="skill 03" class="containerImages 03" src="images/Info Architecture.png">
+                    <p class="skillsText">The ability to organize information in an understandable manner is critical. Information architecture quickly became my second favorite part of the design process because creating a product that is effective and user friendly is what I always strive for. It’s where design and technology merge to make lives easier.</p>
                 </div>
             </div>
-        <section class="parentContainerWork">
+        <section class="parentContainerWork" id="parentWork">
             <h5>Work</h5>
             <div class="workGrid">
                 <div class="workChild"> 
@@ -59,7 +60,7 @@
                 <div class="info">
                     <h6>Ace Travel: A Mobile Travel App</h6>
                     <p>Currently, people have a hard time planning and budgeting for trips and use more than one app/website to do so. Ace travel was designed to allows users to plan, coordinate, and budget for trips all from one place. I focused on the on-boarding process and overall navigation of the app.</p>
-                    <button>View Project</button>
+                    <button class="button01">View Project</button>
                 </div>
                 <div class="workChild">
                     <img id="Hope" class="gridImages" src="images/hope for Children RWD.png">
@@ -67,7 +68,7 @@
                 <div class="info">
                     <h6>Hope for Children Responsive Web Design</h6>
                     <p>Hope for Children Foundation was designed to educate, train, and receive donations from website visitors but due its unreliable aesthetic and confusing navigation, users were unable to complete tasks. Information architecture and modernizing the look and feel of the desktop and mobile version were attacked during this project.</p>
-                    <button>View Project</button>
+                    <button class="button02">View Project</button>
                 </div>
                 <div class="workChild">
                     <img id="Bridge" class="gridImages" src="images/bridge app.png">
@@ -75,7 +76,7 @@
                 <div class="info">
                     <h6>Bridge: A Mobile Community Donation App</h6>
                     <p>Bridge was designed to allow users to find those in need of donations within their community vs always donating to organizations that already receive a lot of help. This app increases the impact of donations made and brings great satisfactions to users.</p>
-                    <button>View Project</button>
+                    <button class="button03">View Project</button>
                 </div>
             </div>
             <div>
@@ -87,13 +88,15 @@
                 <p class="Heading">Get in touch!</p>
                 <p class="resumeText">I’d love to share my work with you and chat about all things design.</p> 
                 <p class="resumeText">Shoot me an email at: ashleyhodge121@gmail.com</p>
-                    <button>Resume</button>
+                    <button class="button04">Resume</button>
             </div>
             <div id="socialHandles">
                 <a href="LinkedIn">LinkedIn</a>
                 <a href="Facebook">Facebook</a>
                 <a href="©2021.All Rights Reserved.">©2021.All Rights Reserved.</a>            
             </div>
-        </section>         
+        </section>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="js/index.js"></script>         
     </body>
 </html>
